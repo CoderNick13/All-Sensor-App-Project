@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ff"
+    tools:context=".Fourth">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="405dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-34dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="40dp"
+        android:text="           CHOOSE ANY APP"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:background="@drawable/fourb"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="119dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="16dp"
+
+        android:text="TORCH" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/fourb"
+        android:textStyle="italic"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="246dp"
+        android:textSize="16dp"
+        android:text="Bluetooth" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:background="@drawable/fourb"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="161dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:text="calculator" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:textSize="13dp"
+        android:layout_marginBottom="39dp"
+        android:text="next" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/fourb"
+        android:gravity="center"
+        android:text="Wifi"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

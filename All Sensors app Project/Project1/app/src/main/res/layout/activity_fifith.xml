@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fifthi"
+    android:layout_height="match_parent"
+    tools:context=".Fifith">
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/fifith"
+        android:gravity="center"
+        android:text="Media player"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="251dp"
+        android:background="@drawable/fifith"
+        android:gravity="center"
+        android:text="Vibrate"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="268dp"
+        android:background="@drawable/fifith"
+        android:gravity="center"
+        android:text="Text to Speech"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="105dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="68dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="105dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="69dp"
+        android:text="next" />
+</RelativeLayout>
